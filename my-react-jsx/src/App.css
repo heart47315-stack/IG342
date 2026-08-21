@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.header,
+.footer {
+  width: 270px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #333;
+  font-weight: bold;
+}
+
+.content {
+  margin: 10px 0;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.profile-card,
+.custom-button {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  font-weight: bold;
+}
+
+.custom-button {
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background: #eeeeee;
+}
